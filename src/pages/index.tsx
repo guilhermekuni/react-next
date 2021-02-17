@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../../styles/Home.module.css';
 
 export default function Home({ title = 'React Avançado' }) {
   return (
@@ -59,5 +59,5 @@ export default function Home({ title = 'React Avançado' }) {
         </a>
       </footer>
     </div>
-  )
+  );
 }
